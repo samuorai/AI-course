@@ -144,6 +144,7 @@ list10.clear()
 print(list10)
 
 list5 = [10, 100,17,50,90]
+print(list5)
 
 list5.sort()
 print(list5)
