@@ -246,7 +246,6 @@ C1.Subtract(C2)
 
 print("Magnitude C1 ",C1.MagintudeComplex())
 
-#%%
 
 
 

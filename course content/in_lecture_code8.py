@@ -24,7 +24,7 @@ print(Combined_dataset)
 print(Combined_dataset.shape)
 
 #%%
-
+#horizontal stacking
 arr1 = np.array([[1,2,10],[10,4,5],[4,6,7]])
 print (arr1)
 print (arr1.shape)
@@ -67,6 +67,20 @@ print(np.dot(arr1,arr2.T))
 #%%
 
 # Statistical operations
+arr4 = np.array([1,2,3,10,4,5,6])
+print("Hello \t world ")
+print("Hello \t world \t hi \n Go")
+
+print("\nArray 4:\n",arr4)
+print("\nSum",np.sum(arr4))
+print("Mean:",np.mean(arr4))
+print("Median:",np.meddian(arr4))
+print("Variance:",np.var(arr4))
+print("Std Dev:",np.std(arr4))
+print("Min:",np.min(arr4))
+print("max:",np.max(arr4))
+print("Argmin (index of min):",np.argmin(arr4))
+print("Argmax (index of max):",np.argmax(arr4))
 
 #%%
 # reading and writing with 
